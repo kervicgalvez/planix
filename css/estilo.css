@@ -1,0 +1,311 @@
+@font-face {
+    font-family: Crystal-Lake;
+    src: url('../font/Crystal-Lake.ttf');
+}
+
+body{
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+
+}
+.row>div{
+	/* outline: 1px solid gray; */
+}
+
+/* bloque menu */
+
+.menu {
+	background-color: #000;
+	z-index: 1000;
+}
+
+.navbar a {
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: bold;
+	letter-spacing: 0.25px;
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* fin bloque menu */
+
+/* bloque banner */
+
+.banner-block {
+	background-image: url(../img/fondoprin.png);
+	height: 100vh;
+	background-size: cover;
+}
+
+.banner-block h3 {
+	font-size: 50px;
+	line-height: 40px;
+	font-weight: 700;
+	letter-spacing: 0.10px;
+	color: #fff;
+	padding-top: 200px;
+	padding-bottom: 15px;
+	font-family: 'Patua One', serif;
+}
+
+.bg-color-teal {
+	background-color: #00E0D0;
+}
+
+.bg-color-gray {
+	background-color: #9B99A0;
+}
+
+.line {
+	height: 2px;
+	width: 50px;
+	border: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner-block p {
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+	padding: 40px 100px 40px 100px;
+}
+
+.button {
+	background-color: gold; 
+	border: none;
+	padding: 0.5rem 1rem;
+	color: #000;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+
+/* fin bloque banner */
+
+
+/*Servicios*/
+.container-service{
+	margin: 0 auto;
+  max-width: 1200px;
+	padding-top: 85px;
+  padding-bottom: 105px;
+}
+
+.container-service h2{
+	font-family: 'Patua One', serif;
+	font-size: 30px;
+	color: black;
+	font-weight:bold;
+}
+
+.service-p{
+	color: #727272;
+	font-size: 12px;
+	font-family: 'Roboto',sans-serif;
+	max-width: 620px;
+	margin: 0 auto;
+}
+
+.line2{
+	height: 2px;
+  width: 50px;
+  margin: 20px auto;
+  background: #c6c4c9;
+	margin-bottom: 70px;
+}
+
+.container-service i{
+	color: #4a9ff5;
+	font-size: 40px;
+}
+
+.container-service i:hover {
+	color: #F5B041;
+	letter-spacing: 1rem;
+	transition: all 0.5s ease-in-out;
+}
+
+
+.container-service h3{
+	font-family: 'Roboto', serif;
+	font-size: 17px;
+	color: #797979;
+	font-weight:bolder;
+	padding-top: 20px;
+}
+.container-service p{
+	font-family: 'Roboto', serif;
+	font-size: 12px;
+	color: #797979;
+	font-weight:lighter;
+	text-align: center;
+	max-width: 180px;
+	margin: 0 auto;
+	padding-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+/*fin Servicios*/
+
+
+/*Metodologia*/
+		.first-section{
+
+		}
+		.point{
+			width: 200px;
+			border: 1px solid gray;
+			position: relative;
+			margin: 20px;
+		}
+		.point:after{
+			content: " ";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 30px;
+			height: 30px;
+			background-color: red;
+			border: 2px solid white;
+			box-shadow: 0 0 10px black;
+			border-radius: 50%;
+		}
+		.point h1{
+			font-size: 14px;
+			font-weight: bold;
+			text-indent: 45px;
+			margin-bottom: 20px
+		}
+		.point p{
+			display: none;
+			font-size: 12px;
+		}
+		.point:hover p{
+			display: block;
+		}
+		.point:nth-child(1){
+			top:0px;
+			right: -100px;
+			position: absolute;
+		}
+		.point:nth-child(2){
+			top:60px;
+			left: 0px;
+			position: absolute;
+		}
+		.point:nth-child(3){
+			bottom: 0px;
+			left: 70px;
+			position: absolute;
+		}
+		.point:nth-child(4){
+			bottom: 110px;
+			right: -190px;
+			position: absolute;
+		}
+
+		.circle{
+			position: relative;
+			margin: 0 auto;
+			width:500px;
+			height:500px;
+			border-radius: 250px;
+			border:5px solid gray;
+			margin-bottom: 100px;
+		}
+
+
+/*fin metodologia*/
+
+
+/*CLIENTES*/
+
+.container-clientes{
+	margin: 0 auto;
+  max-width: 1200px;
+	padding-top: 85px;
+  padding-bottom: 105px;
+}
+
+.container-clientes h2{
+	font-family: 'Patua One', serif;
+	font-size: 30px;
+	color: black;
+	font-weight:bold;
+}
+
+.clientes-p{
+	color: #727272;
+	font-size: 12px;
+	font-family: 'Roboto',sans-serif;
+	max-width: 620px;
+	margin: 0 auto;
+}
+
+
+
+
+/*fin clientes*/
+
+/*inicio footer*/
+
+footer {
+	background-color: #2C7ACA;
+	color: white;
+	font-size: 0.7em;
+	height: auto;
+  padding: 2rem 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.footer a{
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 40px;
+	text-decoration: none;
+  letter-spacing: 1rem;
+	transition: all 0.5s ease-in-out;
+
+}
+
+.footer a:hover {
+	color: #F5B041;
+}
+
+.footer img {
+	height: 40px;
+	width: 40px;
+
+}
+
+.footer p {
+  padding: 1rem;
+}
+
+.top a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: white;
+  font-family: 'Crystal-Lake', cursive;
+  transition: all 0.5s ease-in-out;
+  padding: 1rem;
+
+}
+
+
+
+/*fin footer*/
